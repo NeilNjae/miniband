@@ -1,4 +1,5 @@
 # Code Club - Mini Band Project
+Updated project for Code Club, using Arduino and Raspberry Pi
 
 <img src="http://farm9.staticflickr.com/8338/8256708023_4a941566e9.jpg" width="500" height="375" alt="photo (2)">
 
