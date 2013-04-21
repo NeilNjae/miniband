@@ -9,7 +9,7 @@ void setup() {
   for (int i = 0; i < NUMBER_OF_DRUMS; i++) {
     pinMode(PINS[i], INPUT);
   }
-  Serial.begin(57600);
+  Serial.begin(9600);
 }
 
 void loop() {

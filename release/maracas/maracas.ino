@@ -7,14 +7,16 @@ void setup() {
   for (int i = 0; i < 2; i++) {
     pinMode(pins[i], INPUT);
   }
-  Serial.begin(57600);
+  Serial.begin(9600);
 }
 
 void loop() {
   for (int i = 0; i < 2; i++) {
     newState = digitalRead(pins[i]);
     if (newState != states[i]) {
-      Serial.println("maracas,1023");
+      Serial.print("maracas,");
+      Serial.print(i);
+      Serial.println();
       states[i] = newState;
       delay(wait);
     }

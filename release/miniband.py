@@ -11,7 +11,6 @@ import sys
 import struct
 import serial
 import io
-import datetime as dt
 import logging
 
 PORT = 42001
@@ -19,11 +18,7 @@ DEFAULT_HOST = '127.0.0.1'
 BUFFER_SIZE = 240 #used to be 100
 SOCKET_TIMEOUT = 1
 DEVICES = ['/dev/ttyACM0', '/dev/ttyACM1','/dev/ttyACM3']
-#DEVICES = ['/dev/ttyACM0','/dev/ttyACM1']
-#DRUM_DEVICE = '/dev/ttyACM0'
-#GUITAR_DEVICE = '/dev/ttyUSB1'
-#MARACAS_DEVICE = '/dev/ttyACM1'
-ARDUINO_BAUD_RATE = 57600
+ARDUINO_BAUD_RATE = 9600
 
 BROADCAST_NAMES = {'guitar': 'guitar', 
     'drum': {0: 'cymbal',

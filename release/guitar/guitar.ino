@@ -7,7 +7,7 @@ int val;
 int pinDelay;
 
 void setup() {
-  Serial.begin(57600);
+  Serial.begin(9600);
 }
 
 void loop() {
