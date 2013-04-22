@@ -17,7 +17,8 @@ PORT = 42001
 DEFAULT_HOST = '127.0.0.1'
 BUFFER_SIZE = 240 #used to be 100
 SOCKET_TIMEOUT = 1
-DEVICES = ['/dev/ttyACM0', '/dev/ttyACM1','/dev/ttyACM3']
+DEVICES = ['/dev/ttyACM3']
+#DEVICES = ['/dev/ttyACM0', '/dev/ttyACM1','/dev/ttyACM3']
 ARDUINO_BAUD_RATE = 9600
 
 BROADCAST_NAMES = {'guitar': 'guitar', 
