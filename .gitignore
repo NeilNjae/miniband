@@ -33,3 +33,9 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Backup files
+*~
+
+# Open Office lock files
+.~lock*#
