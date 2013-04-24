@@ -1,5 +1,6 @@
-# Code Club - Mini Band Project
-Updated project for Code Club, using Arduino and Raspberry Pi
+Code Club - Mini Band Project
+=============================
+# Updated project for Code Club, using Arduino and Raspberry Pi
 
 <img src="http://farm9.staticflickr.com/8338/8256708023_4a941566e9.jpg" width="500" height="375" alt="photo (2)">
 
@@ -16,12 +17,11 @@ Learn how to build circuits with sensors and outputs and write a simple programm
 ## You will need:
 
 * 1 x Raspberry Pi (plus monitor and power supply)
-* USB hub
-* 2 x Arduino Uno boards (with USB cables)
+* 1 x Arduino Uno boards (with USB cables)
 * 1 x strip potentiometer
 * 2 x tilt sensors
 * 4 x piezo buzzers (the type in greetings cards, easy to get from Maplin)
-* 10K resistors
+* 7 × 10K resistors
 * Bread boards (1 per instrument)
 * Card
 * Sugru (or some other modelling material)
